@@ -1,0 +1,436 @@
+/* ------ GOOGLE FONTS ------ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* ------ RESET  ------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62,5%;
+}
+/* ------ BODY  ------ */
+body {
+    font-family: "Roboto", sans-serif;
+}
+/* ------ NAVBAR  ------ */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00bbbb;
+}
+.isologo-home {
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+    width: 170px;
+    align-self:start;
+    margin-top: auto;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 5px;
+    margin-left: auto;
+}
+li {
+    List-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    Font-size: 1rem;
+}
+ul li{
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav:hover > a {
+    color: #B2D9D8;
+}
+.button-ingresar{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+.person {
+    margin-right: 8px;
+    margin-bottom: 4.5px;
+}
+.button-ingresar:hover{
+    color:#fff;
+    background-color: #B2D9D8;
+}
+/* ------ FIN NAVBAR  ------ */
+/* ------ BACKGROUND  ------ */
+.wave-content {
+    background-image: url("../assets/background-wave.png");
+    height: 510px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ilustracion-home {
+    margin-top: 154px;
+}
+h1 {
+    font-size: 3rem;
+    Color: white;
+    Font-family: "Roboto", sans-serif;
+    Font-style: normal;
+    Font-size: 3rem;
+}
+.titulo-h1 {
+    align-self:center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    Font-size: 2rem;
+    Color: white;
+}
+.texto-2 {
+    align-self:flex-end;
+    margin-left: 30px;
+}
+.text-button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.text-body {
+    color: #000000;
+    font-size: 2rem;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.button-demo {
+    background-color: #00BBBB;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.button-demo:hover {
+    color:#fff;
+    background-color: #B2D9D8;
+}
+/* ------ FIN BACKGROUND ------ */
+/* ------ FOOTER ------ */
+footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    Font-size: 1rem;
+    Color: #00BBBB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.isologo-footer {
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.text-footer {
+    color: #00BBBB;
+    font-size:medium;
+    margin-top: 60px;
+    padding: 15px;
+}
+.li-1 {
+    color:#00BBBB;
+    font-weight: normal;
+    text-align: right;
+    padding: 3px;
+    margin-right: 20px;
+}
+.last-li {
+    color:#00BBBB;
+    font-weight: normal;
+    text-align: right;
+    padding: 3px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+/* ------ SECTION CONTACTO ------ */
+/* ------ NAVBAR ------ */
+.navegable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:none;
+}
+.isologo-blanco {
+    margin: 20px;
+}
+.nav-contacto {
+    color: #000;
+}
+.nav-contacto:hover{
+    color: #B2D9D8;
+}
+.nav-contacto-1 {
+    color: #00BBBB;
+}
+.ingresar-cont {
+    border: 1px solid #00BBBB;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    color:#00BBBB;
+}
+.person-1 {
+    margin-bottom: 4.5px;
+    margin-right: 5px;
+}
+.ingresar-cont:hover{
+    background-color: #B2D9D8;
+}
+/* ------ FIN NAVBAR ------ */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.titulos-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.titulo-cont {
+    color: #000;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.img-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 80%;
+}
+.motivo {
+    font-size: 2rem;
+    color:#666;
+    padding: 20px;
+    margin-top: 100px;
+}
+.button-opcion {
+    background-color: #999999;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 10px;
+    color: #666;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+/* ------ SECTION FAQ ------ */
+/* ------ NAVBAR ------ */
+.nav-faq {
+    color: #00BBBB;
+}
+.nav-faq-1 {
+    color: #000;
+}
+.nav-faq-1:hover{
+    color: #B2D9D8;
+}
+/* ------ FIN NAVBAR ------ */
+.main-faq {
+    display: flex;
+    flex-direction: column;
+}
+.h1-faq {
+    color: #000;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.h2-faq {
+    color: #00BBBB;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ilustracion-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.ilustracion-faq {
+    height: 600px;
+    margin-right: 50px;
+}
+.ol-content {
+    margin-top: 80px;
+    margin-bottom: 70px;
+    padding: 20px;
+}
+ol {
+    font-family: "Roboto", sans-serif;
+    font: weight 300px;
+    font-style:normal;
+    Font-size: 1.5rem;
+    Color: black;
+    padding-left: 0;
+}
+.plus-circle {
+    color: #00BBBB;
+}
+/* ------ SECTION NOSOTROS ------ */
+/* ------ NAVBAR ------ */
+.main-nosotros {
+    display: flex;
+    background-size:cover;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-nosotros {
+    color: #000;
+}
+.nav-nosotros:hover{
+    color: #B2D9D8;
+}
+.nav-nosotros-1 {
+    color: #00BBBB;
+}
+/* ------ FIN NAVBAR ------ */
+.h1-nosotros {
+    color: #000;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.h2-color {
+    color: #00BBBB;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.p-nosotros {
+    color: #000;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+/* ------ SECTION AYUDA ------ */
+/* ------ NAVBAR ------ */
+.nav-ayuda {
+    color: #000;
+}
+.nav-ayuda:hover{
+    color: #B2D9D8;
+}
+.nav-ayuda-1 {
+    color: #00BBBB;
+}
+/* ------ FIN NAVBAR ------ */
+.main-ayuda {
+    display: flex;
+    background-size:cover;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.h1-ayuda {
+    color: #000;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.h3-buscar {
+    color: #666;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.ilustracion-ayuda {
+    margin-top: 100px;
+    width: 500px;
+}
+.button-opcion-ayuda {
+    background-color: #999999;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 10px;
+    color: #666;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.lupa {
+    width: 10px;
+    height: 10px;
+}
+/* ------ FIN SECCIONES ------ */
+/* ------ MEDIA QUERY HOME ------ */
+/* ------ MEDIA QUERY FAQ ------ */
+/* ------ MEDIA QUERY NOSOTROS ------ */
+/* ------ MEDIA QUERY CONTACTO ------ */
+.navegable {
+    grid-area: nav;
+}
+.grid-main {
+    grid-area: main;
+}
+.row-footer {
+    grid-area: footer;
+}
+.layout-contacto {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+}
+@media screen and (min-width: 320px) and (max-width: 767){
+    .layout-contacto {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1023){
+    .layout-contacto {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area:
+    "nav"
+    "main"
+    "footer";
+}
+}
+@media screen and (min-width: 1024px){
+    .layout-contacto {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area:
+    "nav"
+    "main"
+    "footer";
+}
+}
+/* ------ MEDIA QUERY AYUDA ------ */
