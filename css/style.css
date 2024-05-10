@@ -251,6 +251,9 @@ footer {
     margin-left: 20px;
     margin-bottom: 50px;
 }
+.button-opcion:hover {
+    color: #bbbbbb;
+}
 /* ------ SECTION FAQ ------ */
 /* ------ NAVBAR ------ */
 .nav-faq {
@@ -379,6 +382,9 @@ ol {
     font-size: 0.8rem;
     margin-left: 20px;
     margin-bottom: 50px;
+}
+.button-opcion-ayuda:hover {
+    color: #bbbbbb;
 }
 .lupa {
     width: 10px;
