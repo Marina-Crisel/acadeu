@@ -300,10 +300,21 @@ ol {
     font: weight 300px;
     font-style:normal;
     Font-size: 1.5rem;
-    Color: black;
+    Color: #000000;
     padding-left: 0;
 }
+li {
+    margin-top: 20px;
+}
+.a-2 {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+}
 .plus-circle {
+    color: #00BBBB;
+}
+.uno {
     color: #00BBBB;
 }
 /* ------ SECTION NOSOTROS ------ */
