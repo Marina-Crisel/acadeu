@@ -1,0 +1,173 @@
+/* ------ GOOGLE FONTS ------ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* ------ RESET  ------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+html body {
+  font-family: "Roboto", sans-serif;
+}
+html body nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00bbbb;
+}
+html body nav .isologo-home {
+  margin-top: 15px;
+  border-radius: 10px;
+  margin-left: 15px;
+  width: 170px;
+  align-self: start;
+  margin-top: auto;
+}
+html body nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  margin-left: auto;
+}
+html body nav li {
+  List-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  Font-size: 1rem;
+}
+html body nav ul li {
+  padding: 10px;
+}
+html body nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+html body nav .nav:hover > a {
+  color: #B2D9D8;
+}
+html body nav .button-ingresar {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+html body nav .person {
+  margin-right: 8px;
+  margin-bottom: 4.5px;
+}
+html body nav .button-ingresar:hover {
+  color: #fff;
+  background-color: #B2D9D8;
+}
+html body .wave-content {
+  background-image: url("../assets/background-wave.png");
+  height: 510px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+html body .wave-content .ilustracion-home {
+  margin-top: 154px;
+}
+html body .wave-content h1 {
+  font-size: 3rem;
+  Color: #fff;
+  Font-family: "Roboto", sans-serif;
+  Font-style: normal;
+  Font-size: 3rem;
+}
+html body .wave-content .titulo-h1 {
+  align-self: center;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+html body .wave-content p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  Font-size: 2rem;
+  Color: #fff;
+}
+html body .wave-content .texto-2 {
+  align-self: flex-end;
+  margin-left: 30px;
+}
+html body .text-button-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+html body .text-button-content .text-body {
+  color: #000000;
+  font-size: 2rem;
+  margin-top: 120px;
+  margin-left: 20px;
+}
+html body .text-button-content .button-demo {
+  background-color: #00bbbb;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+html body .text-button-content .button-demo:hover {
+  color: #fff;
+  background-color: #B2D9D8;
+}
+html body footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  Font-size: 1rem;
+  Color: #00bbbb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+html body footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+html body footer .footer-secondary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+html body footer .footer-secondary .isologo-footer {
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+html body footer .footer-secondary .text-footer {
+  color: #00bbbb;
+  font-size: medium;
+  margin-top: 60px;
+  padding: 15px;
+}
+html body footer .footer-secondary .li-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+html body footer .footer-secondary .li-1 {
+  color: #00bbbb;
+  font-weight: normal;
+  text-align: center;
+  margin: 3px 20px;
+}/*# sourceMappingURL=styles.css.map */
