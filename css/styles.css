@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/* ------ HOME ------ */
 html {
   font-size: 62, 5%;
 }
@@ -18,6 +19,9 @@ html body nav {
   justify-content: space-between;
   align-items: center;
   background-color: #00bbbb;
+}
+html body nav:hover {
+  color: #B2D9D8;
 }
 html body nav .isologo-home {
   margin-top: 15px;
@@ -49,22 +53,19 @@ html body nav ul li a {
   text-decoration: none;
   color: #fff;
 }
-html body nav .nav:hover > a {
-  color: #B2D9D8;
-}
 html body nav .button-ingresar {
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 10px;
   margin: 20px;
 }
-html body nav .person {
-  margin-right: 8px;
-  margin-bottom: 4.5px;
-}
 html body nav .button-ingresar:hover {
   color: #fff;
   background-color: #B2D9D8;
+}
+html body nav .person {
+  margin-right: 8px;
+  margin-bottom: 4.5px;
 }
 html body .wave-content {
   background-image: url("../assets/background-wave.png");
@@ -170,4 +171,225 @@ html body footer .footer-secondary .li-1 {
   font-weight: normal;
   text-align: center;
   margin: 3px 20px;
+}
+
+/* ------ PREGUNTAS FRECUENTES ------ */
+.nav-faq {
+  color: #00bbbb;
+}
+
+.nav-faq-1 {
+  color: #000000;
+}
+.nav-faq-1:hover {
+  color: #B2D9D8;
+}
+
+.main-faq {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-faq .h1-faq {
+  color: #000000;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.main-faq .h2-faq {
+  color: #00bbbb;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.main-faq .ol-content {
+  margin-top: 80px;
+  margin-bottom: 70px;
+  padding: 20px;
+}
+.main-faq .ol-content ol {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  Font-size: 1.5rem;
+  Color: #000000;
+  padding-left: 0;
+}
+.main-faq .ol-content li {
+  margin-top: 20px;
+}
+.main-faq .ol-content .a-2 {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.main-faq .ol-content .plus-circle {
+  color: #00bbbb;
+}
+.main-faq .ol-content .uno {
+  color: #00bbbb;
+}
+.main-faq .ilustracion-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.main-faq .ilustracion-content .ilustracion-faq {
+  height: 600px;
+  margin-top: 50px;
+}
+
+/* ------ NOSOTROS ------ */
+.nav-nosotros {
+  color: #000000;
+}
+.nav-nosotros:hover {
+  color: #B2D9D8;
+}
+
+.nav-nosotros-1 {
+  color: #00bbbb;
+}
+
+.main-nosotros {
+  display: flex;
+  background-size: cover;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main-nosotros .h1-nosotros {
+  color: #000000;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.main-nosotros .h2-color {
+  color: #00bbbb;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+.p-nosotros {
+  color: #000000;
+  font-size: 1.3rem;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+/* ------ CONTACTO ------ */
+.navegable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+}
+.navegable .isologo-blanco {
+  margin: 20px;
+}
+.navegable .nav-contacto {
+  color: #000000;
+}
+.navegable .nav-contacto:hover {
+  color: #B2D9D8;
+}
+.navegable .nav-contacto-1 {
+  color: #00bbbb;
+}
+.navegable .ingresar-cont {
+  border: 1px solid #00bbbb;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  color: #00bbbb;
+}
+.navegable .ingresar-cont:hover {
+  background-color: #B2D9D8;
+}
+.navegable .person-1 {
+  margin-bottom: 4.5px;
+  margin-right: 5px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-content .titulo-cont {
+  color: #000000;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.main-content .motivo {
+  font-size: 2rem;
+  color: #666;
+  padding: 20px;
+  margin-top: 100px;
+}
+.main-content .button-opcion {
+  background-color: #999999;
+  border: 1px solid #666;
+  border-radius: 10px;
+  padding: 10px;
+  color: #666;
+  font-weight: bolder;
+  font-size: 0.8rem;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.main-content .button-opcion:hover {
+  color: #bbbbbb;
+}
+.main-content .ilustracion-contacto {
+  height: 600px;
+}
+
+/* ------ AYUDA ------ */
+.nav-ayuda {
+  color: #000000;
+}
+.nav-ayuda:hover {
+  color: #B2D9D8;
+}
+
+.nav-ayuda-1 {
+  color: #00bbbb;
+}
+
+.main-ayuda {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-ayuda .h1-ayuda {
+  color: #000000;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.main-ayuda .h3-buscar {
+  color: #666;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+.main-ayuda .lupa {
+  width: 10px;
+  height: 10px;
+}
+.main-ayuda .ilustracion-ayuda {
+  width: 500px;
+}
+.main-ayuda .button-opcion-ayuda {
+  background-color: #999999;
+  border: 1px solid #666;
+  border-radius: 10px;
+  padding: 10px;
+  color: #666;
+  font-weight: bolder;
+  font-size: 0.8rem;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.main-ayuda .button-opcion-ayuda:hover {
+  color: #bbbbbb;
 }/*# sourceMappingURL=styles.css.map */

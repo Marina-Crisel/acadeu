@@ -11,6 +11,7 @@ $CelesteSecundario: #B2D9D8;
 $BlancoAcento: #fff;
 $Negro: #000000;
 
+/* ------ HOME ------ */
 html {
     font-size: 62,5%;
     body {
@@ -20,6 +21,9 @@ html {
             justify-content: space-between;
             align-items: center;
             background-color: $CelestePrimario;
+            &:hover {
+                color: $CelesteSecundario;
+            }
             .isologo-home {
                 margin-top: 15px;
                 border-radius: 10px;
@@ -50,22 +54,19 @@ html {
                 text-decoration: none;
                 color: $BlancoAcento;
             }
-            .nav:hover > a {
-                color: $CelesteSecundario;
-            }
             .button-ingresar{
                 border: 1px solid $BlancoAcento;
                 border-radius: 10px;
                 padding: 10px;
                 margin: 20px;
+                &:hover{
+                    color: $BlancoAcento;
+                    background-color: $CelesteSecundario;
+                }
             }
             .person {
                 margin-right: 8px;
                 margin-bottom: 4.5px;
-            }
-            .button-ingresar:hover{
-                color: $BlancoAcento;
-                background-color: $CelesteSecundario;
             }
         }
         .wave-content {
@@ -172,6 +173,219 @@ html {
                     margin: 3px 20px;
                 }
             }
+        }
+    }
+}
+
+/* ------ PREGUNTAS FRECUENTES ------ */
+.nav-faq {
+    color: $CelestePrimario;
+}
+.nav-faq-1 {
+    color: $Negro;
+    &:hover{
+        color: $CelesteSecundario;
+    }
+}
+.main-faq {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .h1-faq {
+        color: $Negro;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .h2-faq {
+        color: $CelestePrimario;
+        font-size: 2rem;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .ol-content {
+        margin-top: 80px;
+        margin-bottom: 70px;
+        padding: 20px;
+        ol {
+            font-family: "Roboto", sans-serif;
+            font-style:normal;
+            Font-size: 1.5rem;
+            Color: $Negro;
+            padding-left: 0;
+        }
+        li {
+            margin-top: 20px;
+        }
+        .a-2 {
+            text-decoration: none;
+            color: $Negro;
+            font-size: 1.5rem;
+            font-weight:normal;
+        }
+        .plus-circle {
+            color: $CelestePrimario;
+        }
+        .uno {
+            color: $CelestePrimario;
+        }
+    }
+    .ilustracion-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        .ilustracion-faq {
+            height: 600px;
+            margin-top: 50px;
+        }
+    }
+}
+
+/* ------ NOSOTROS ------ */
+.nav-nosotros {
+    color: $Negro;
+    &:hover {
+        color: $CelesteSecundario;
+    }
+}
+.nav-nosotros-1 {
+    color: $CelestePrimario;
+}
+.main-nosotros {
+    display: flex;
+    background-size:cover;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .h1-nosotros {
+        color: $Negro;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .h2-color {
+        color: $CelestePrimario;
+        margin-left: 20px;
+        padding-top: 30px;
+    }
+}
+.p-nosotros {
+    color: $Negro;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+/* ------ CONTACTO ------ */
+.navegable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:none;
+    .isologo-blanco {
+        margin: 20px;
+    }
+    .nav-contacto {
+        color: $Negro;
+        &:hover{
+            color: $CelesteSecundario;
+        }
+    }
+    .nav-contacto-1 {
+        color: $CelestePrimario;
+    }
+    .ingresar-cont {
+        border: 1px solid $CelestePrimario;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        color: $CelestePrimario;
+        &:hover {
+            background-color: $CelesteSecundario;
+        }
+    }
+    .person-1 {
+        margin-bottom: 4.5px;
+        margin-right: 5px;
+    }
+}
+.main-content {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .titulo-cont {
+        color: $Negro;
+        margin-top: 100px;
+        margin-left: 20px;
+        }
+    .motivo {
+        font-size: 2rem;
+        color:#666;
+        padding: 20px;
+        margin-top: 100px;
+    }
+    .button-opcion {
+        background-color: #999999;
+        border: 1px solid #666;
+        border-radius: 10px;
+        padding: 10px;
+        color: #666;
+        font-weight: bolder;
+        font-size: 0.8rem;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        &:hover {
+            color: #bbbbbb;
+        }
+    }
+    .ilustracion-contacto {
+        height: 600px;
+    }
+}
+
+/* ------ AYUDA ------ */
+.nav-ayuda {
+    color: $Negro;
+    &:hover {
+        color: $CelesteSecundario;
+    }
+}
+.nav-ayuda-1 {
+    color: $CelestePrimario;
+}
+.main-ayuda {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .h1-ayuda {
+        color: $Negro;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .h3-buscar {
+        color: #666;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+    .lupa {
+        width: 10px;
+        height: 10px;
+    }
+    .ilustracion-ayuda {
+        width: 500px;
+    }
+    .button-opcion-ayuda {
+        background-color: #999999;
+        border: 1px solid #666;
+        border-radius: 10px;
+        padding: 10px;
+        color: #666;
+        font-weight: bolder;
+        font-size: 0.8rem;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        &:hover {
+            color: #bbbbbb;
         }
     }
 }
