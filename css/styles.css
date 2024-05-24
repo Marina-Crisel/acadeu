@@ -7,6 +7,51 @@
   box-sizing: border-box;
 }
 
+footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  Font-size: 1rem;
+  Color: #00bbbb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .footer-secondary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .footer-secondary .isologo-footer {
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+footer .footer-secondary .text-footer {
+  color: #00bbbb;
+  font-size: medium;
+  margin-top: 60px;
+  padding: 15px;
+}
+footer .footer-secondary .li-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  list-style: none;
+}
+footer .footer-secondary .li-1 {
+  color: #00bbbb;
+  font-weight: normal;
+  text-align: center;
+  margin: 3px 20px;
+}
+
 /* ------ HOME ------ */
 html {
   font-size: 62, 5%;
