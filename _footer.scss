@@ -1,0 +1,43 @@
+footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    Font-size: 1rem;
+    Color: $CelestePrimario;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-secondary {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        .isologo-footer {
+            border-radius: 10px;
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+        .text-footer {
+            color: $CelestePrimario;
+            font-size:medium;
+            margin-top: 60px;
+            padding: 15px;
+        }
+        .li-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+        .li-1 {
+            color: $CelestePrimario;
+            font-weight: normal;
+            text-align: center;
+            margin: 3px 20px;
+        }
+    }
+}

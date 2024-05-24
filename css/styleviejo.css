@@ -310,12 +310,6 @@ li {
 }
 /* ------ SECTION NOSOTROS ------ */
 /* ------ NAVBAR ------ */
-.main-nosotros {
-    display: flex;
-    background-size:cover;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 .nav-nosotros {
     color: #000;
 }
@@ -326,6 +320,12 @@ li {
     color: #00BBBB;
 }
 /* ------ FIN NAVBAR ------ */
+.main-nosotros {
+    display: flex;
+    background-size:cover;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .h1-nosotros {
     color: #000;
     margin-top: 100px;
