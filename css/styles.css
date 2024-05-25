@@ -98,6 +98,12 @@ html body nav ul li a {
   text-decoration: none;
   color: #fff;
 }
+html body nav .nav-link {
+  color: #fff;
+}
+html body nav .nav-link:hover {
+  color: #B2D9D8;
+}
 html body nav .button-ingresar {
   border: 1px solid #fff;
   border-radius: 10px;
@@ -171,7 +177,7 @@ html body .text-button-content .button-demo {
   font-size: 1rem;
 }
 html body .text-button-content .button-demo:hover {
-  color: #fff;
+  color: #666;
   background-color: #B2D9D8;
 }
 
@@ -209,12 +215,13 @@ html body .text-button-content .button-demo:hover {
   margin-bottom: 70px;
   padding: 20px;
 }
-.main-faq .ol-content ol {
+.main-faq .ol-content ul {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   Font-size: 1.5rem;
   Color: #000000;
   padding-left: 0;
+  list-style: none;
 }
 .main-faq .ol-content li {
   margin-top: 20px;
