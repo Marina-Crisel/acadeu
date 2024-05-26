@@ -10,132 +10,125 @@
 @import 'colors';
 @import 'footer';
 
-
 /* ------ HOME ------ */
-html {
-    font-size: 62,5%;
-    body {
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $CelestePrimario;
+    &:hover {
+        color: $CelesteSecundario;
+    }
+    .isologo-home {
+        margin-top: 15px;
+        border-radius: 10px;
+        margin-left: 15px;
+        width: 170px;
+        align-self:start;
+        margin-top: auto;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin: 5px;
+        margin-left: auto;
+    }
+    li {
+        List-style-type: none;
         font-family: "Roboto", sans-serif;
-        nav{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: $CelestePrimario;
+        font-weight:bold;
+        font-style: normal;
+        Font-size: 1rem;
+    }
+    ul li{
+        padding: 10px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: $BlancoAcento;
+    }
+    .nav-link {
+        color: $BlancoAcento;
+        &:hover {
+            color: $CelesteSecundario;
+        }
+    }
+    .button-ingresar{
+        border: 1px solid $BlancoAcento;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        &:hover{
+            color: $BlancoAcento;
+            background-color: $CelesteSecundario;
+        }
+        .person {
+            margin-right: 8px;
+            margin-bottom: 4.5px;
+        }
+    }
+}
+.wave-content {
+    background-image: url("../assets/background-wave.png");
+    height: 510px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .ilustracion-home {
+        margin-top: 154px;
+    }
+    h1 {
+        font-size: 3rem;
+        Color: $BlancoAcento;
+        Font-family: "Roboto", sans-serif;
+        Font-style: normal;
+        Font-size: 3rem;
+    }
+    .titulo-h1 {
+        align-self:center;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        Font-size: 2rem;
+        Color: $BlancoAcento;
+    }
+    .texto-2 {
+        align-self:flex-end;
+        margin-left: 30px;
+    }
+}
+.text-button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    .text-body {
+        color: $Negro;
+        font-size: 2rem;
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+    .button-demo {
+        background-color: $CelestePrimario;
+        border: 1px solid $BlancoAcento;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: 20px;
+        color: $BlancoAcento;
+        font-weight: bolder;
+        font-size: 1rem;
             &:hover {
-                color: $CelesteSecundario;
-            }
-            .isologo-home {
-                margin-top: 15px;
-                border-radius: 10px;
-                margin-left: 15px;
-                width: 170px;
-                align-self:start;
-                margin-top: auto;
-            }
-            ul {
-                list-style: none;
-                display: flex;
-                justify-content: center;
-                align-items:center;
-                margin: 5px;
-                margin-left: auto;
-            }
-            li {
-                List-style-type: none;
-                font-family: "Roboto", sans-serif;
-                font-weight:bold;
-                font-style: normal;
-                Font-size: 1rem;
-            }
-            ul li{
-                padding: 10px;
-            }
-            ul li a{
-                text-decoration: none;
-                color: $BlancoAcento;
-            }
-            .nav-link {
-                color: $BlancoAcento;
-                &:hover {
-                    color: $CelesteSecundario;
-                }
-            }
-            .button-ingresar{
-                border: 1px solid $BlancoAcento;
-                border-radius: 10px;
-                padding: 10px;
-                margin: 20px;
-                &:hover{
-                    color: $BlancoAcento;
-                    background-color: $CelesteSecundario;
-                }
-            }
-            .person {
-                margin-right: 8px;
-                margin-bottom: 4.5px;
-            }
-        }
-        .wave-content {
-            background-image: url("../assets/background-wave.png");
-            height: 510px;
-            display: flex;
-            background-repeat: no-repeat;
-            background-size:cover;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            .ilustracion-home {
-                margin-top: 154px;
-            }
-            h1 {
-                font-size: 3rem;
-                Color: $BlancoAcento;
-                Font-family: "Roboto", sans-serif;
-                Font-style: normal;
-                Font-size: 3rem;
-            }
-            .titulo-h1 {
-                align-self:center;
-                margin-top: 50px;
-                margin-left: 30px;
-            }
-            p {
-                font-family: "Roboto", sans-serif;
-                font-weight: 300;
-                font-style: normal;
-                Font-size: 2rem;
-                Color: $BlancoAcento;
-            }
-            .texto-2 {
-                align-self:flex-end;
-                margin-left: 30px;
-            }
-        }
-        .text-button-content {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: space-evenly;
-            .text-body {
-                color: $Negro;
-                font-size: 2rem;
-                margin-top: 120px;
-                margin-left: 20px;
-            }
-            .button-demo {
-                background-color: $CelestePrimario;
-                border: 1px solid $BlancoAcento;
-                border-radius: 10px;
-                padding: 10px;
-                margin-top: 30px;
-                margin-left: 20px;
-                color: $BlancoAcento;
-                font-weight: bolder;
-                font-size: 1rem;
-                    &:hover {
-                    color: $GrisBotones;
-                    background-color: $CelesteSecundario;
-                }
-            }
+            color: $GrisBotones;
+            background-color: $CelesteSecundario;
         }
     }
 }
@@ -291,7 +284,7 @@ html {
         background-color: $Gris2BotonesBorder;
         border: 1px solid $GrisBotones;
         border-radius: 10px;
-        padding: 10px;
+        padding: 10px 150px;
         color: $GrisBotones;
         font-weight: bolder;
         font-size: 0.8rem;
@@ -342,7 +335,7 @@ html {
         background-color: $Gris2BotonesBorder;
         border: 1px solid $GrisBotones;
         border-radius: 10px;
-        padding: 10px;
+        padding: 10px 150px;
         color: $GrisBotones;
         font-weight: bolder;
         font-size: 0.8rem;
