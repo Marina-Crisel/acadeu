@@ -52,7 +52,7 @@ footer .footer-secondary .li-1 {
   margin: 3px 20px;
 }
 
-/* ------ HOME ------ */
+/* ------ SECTION HOME ------ */
 nav {
   display: flex;
   justify-content: space-between;
@@ -104,13 +104,13 @@ nav .button-ingresar {
   padding: 10px;
   margin: 20px;
 }
-nav .button-ingresar:hover {
-  color: #fff;
-  background-color: #B2D9D8;
-}
 nav .button-ingresar .person {
   margin-right: 8px;
   margin-bottom: 4.5px;
+}
+nav .button-ingresar:hover {
+  color: #fff;
+  background-color: #B2D9D8;
 }
 
 .wave-content {
@@ -130,7 +130,7 @@ nav .button-ingresar .person {
   Color: #fff;
   Font-family: "Roboto", sans-serif;
   Font-style: normal;
-  Font-size: 3rem;
+  font-weight: bolder;
 }
 .wave-content .titulo-h1 {
   align-self: center;
@@ -177,7 +177,7 @@ nav .button-ingresar .person {
   background-color: #B2D9D8;
 }
 
-/* ------ PREGUNTAS FRECUENTES ------ */
+/* ------ SECTION PREGUNTAS FRECUENTES ------ */
 .nav-faq {
   color: #00bbbb;
 }
@@ -196,6 +196,10 @@ nav .button-ingresar .person {
   justify-content: space-between;
 }
 .main-faq .h1-faq {
+  font-size: 3rem;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
   color: #000000;
   margin-top: 100px;
   margin-left: 20px;
@@ -244,7 +248,7 @@ nav .button-ingresar .person {
   margin-top: 50px;
 }
 
-/* ------ NOSOTROS ------ */
+/* ------ SECTION NOSOTROS ------ */
 .nav-nosotros {
   color: #000000;
 }
@@ -263,6 +267,10 @@ nav .button-ingresar .person {
   flex-wrap: wrap;
 }
 .main-nosotros .h1-nosotros {
+  font-size: 3rem;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
   color: #000000;
   margin-top: 100px;
   margin-left: 20px;
@@ -280,7 +288,7 @@ nav .button-ingresar .person {
   margin-bottom: 50px;
 }
 
-/* ------ CONTACTO ------ */
+/* ------ SECTION CONTACTO ------ */
 .navegable {
   display: flex;
   justify-content: space-between;
@@ -306,12 +314,12 @@ nav .button-ingresar .person {
   margin: 20px;
   color: #00bbbb;
 }
-.navegable .ingresar-cont:hover {
-  background-color: #B2D9D8;
-}
-.navegable .person-1 {
+.navegable .ingresar-cont .person-1 {
   margin-bottom: 4.5px;
   margin-right: 5px;
+}
+.navegable .ingresar-cont:hover {
+  background-color: #B2D9D8;
 }
 
 .main-content {
@@ -321,6 +329,10 @@ nav .button-ingresar .person {
   justify-content: space-between;
 }
 .main-content .titulo-cont {
+  font-size: 3rem;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
   color: #000000;
   margin-top: 100px;
   margin-left: 20px;
@@ -349,7 +361,7 @@ nav .button-ingresar .person {
   height: 600px;
 }
 
-/* ------ AYUDA ------ */
+/* ------ SECTION AYUDA ------ */
 .nav-ayuda {
   color: #000000;
 }
@@ -368,6 +380,10 @@ nav .button-ingresar .person {
   justify-content: space-between;
 }
 .main-ayuda .h1-ayuda {
+  font-size: 3rem;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
   color: #000000;
   margin-top: 100px;
   margin-left: 20px;
