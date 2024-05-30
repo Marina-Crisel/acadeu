@@ -583,18 +583,58 @@ nav .nav-link:hover {
 .navegable .isologo-blanco {
   margin: 20px;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navegable .isologo-blanco {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navegable .isologo-blanco {
+    width: 200px;
+  }
+}
 .navegable .nav-contacto {
   color: #000000;
 }
 .navegable .nav-contacto:hover {
   color: #B2D9D8;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navegable .nav-contacto {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navegable .nav-contacto {
+    display: none;
+  }
+}
 .navegable .nav-contacto-1 {
   color: #00bbbb;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navegable .nav-contacto-1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navegable .nav-contacto-1 {
+    display: none;
+  }
 }
 .navegable .ingresar-cont {
   border: 1px solid #00bbbb;
   color: #00bbbb;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navegable .ingresar-cont {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navegable .ingresar-cont {
+    display: none;
+  }
 }
 
 .main-content {
@@ -612,11 +652,32 @@ nav .nav-link:hover {
   margin-top: 100px;
   margin-left: 20px;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-content .titulo-cont {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-content .titulo-cont {
+    font-size: 1.5rem;
+    margin-left: 60px;
+  }
+}
 .main-content .motivo {
   font-size: 2rem;
   color: #666;
   padding: 20px;
   margin-top: 100px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-content .motivo {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-content .motivo {
+    font-size: 1.3rem;
+  }
 }
 .main-content .button-opcion {
   background-color: #999999;
@@ -632,8 +693,25 @@ nav .nav-link:hover {
 .main-content .button-opcion:hover {
   color: #bbbbbb;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-content .button-opcion {
+    padding: 5px 50px;
+  }
+}
 .main-content .ilustracion-contacto {
   height: 600px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-content .ilustracion-contacto {
+    height: 250px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-content .ilustracion-contacto {
+    height: 300px;
+  }
 }
 
 /* ------ SECTION AYUDA ------ */
@@ -643,9 +721,29 @@ nav .nav-link:hover {
 .nav-ayuda:hover {
   color: #B2D9D8;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .nav-ayuda {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-ayuda {
+    display: none;
+  }
+}
 
 .nav-ayuda-1 {
   color: #00bbbb;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .nav-ayuda-1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-ayuda-1 {
+    display: none;
+  }
 }
 
 .main-ayuda {
@@ -663,10 +761,33 @@ nav .nav-link:hover {
   margin-top: 100px;
   margin-left: 20px;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-ayuda .h1-ayuda {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-ayuda .h1-ayuda {
+    font-size: 2rem;
+    margin-left: 60px;
+  }
+}
 .main-ayuda .h3-buscar {
   color: #666;
   margin-bottom: 40px;
   margin-left: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-ayuda .h3-buscar {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-ayuda .h3-buscar {
+    font-size: 1.3rem;
+    margin-left: 60px;
+    margin-top: 50px;
+  }
 }
 .main-ayuda .lupa {
   width: 10px;
@@ -674,6 +795,16 @@ nav .nav-link:hover {
 }
 .main-ayuda .ilustracion-ayuda {
   width: 500px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-ayuda .ilustracion-ayuda {
+    width: 250px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-ayuda .ilustracion-ayuda {
+    width: 300px;
+  }
 }
 .main-ayuda .button-opcion-ayuda {
   background-color: #999999;
@@ -688,4 +819,14 @@ nav .nav-link:hover {
 }
 .main-ayuda .button-opcion-ayuda:hover {
   color: #bbbbbb;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-ayuda .button-opcion-ayuda {
+    padding: 5px 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-ayuda .button-opcion-ayuda {
+    padding: 5px 70px;
+  }
 }/*# sourceMappingURL=styles.css.map */
