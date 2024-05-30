@@ -112,6 +112,10 @@ nav{
     @include mobile {
         display: none;
     }
+
+    @include tablet {
+        display: none;
+    }
 }
 .wave-content {
     background-image: url("../assets/background-wave.png");
@@ -252,11 +256,27 @@ nav{
 /* ------ SECTION PREGUNTAS FRECUENTES ------ */
 .nav-faq {
     color: $CelestePrimario;
+
+    @include mobile {
+        display: none;
+    }
+
+    @include tablet {
+        display: none;
+    }
 }
 .nav-faq-1 {
     color: $Negro;
     &:hover{
         color: $CelesteSecundario;
+    }
+
+    @include mobile {
+        display: none;
+    }
+
+    @include tablet {
+        display: none;
     }
 }
 .main-faq {
@@ -272,12 +292,28 @@ nav{
         color: $Negro;
         margin-top: 100px;
         margin-left: 20px;
+
+        @include mobile {
+            font-size: 1rem;
+        }
+
+        @include tablet {
+            font-size: 1.5rem;
+        }
     }
     .h2-faq {
         color: $CelestePrimario;
         font-size: 2rem;
         margin-top: 30px;
         margin-left: 20px;
+
+        @include mobile {
+            font-size: 0.8rem;
+        }
+
+        @include tablet {
+            font-size: 1.3rem;
+        }
     }
     .ol-content {
         margin-top: 80px;
@@ -299,6 +335,14 @@ nav{
             color: $Negro;
             font-size: 1.5rem;
             font-weight:normal;
+
+            @include mobile {
+                font-size: 0.9rem;
+            }
+
+            @include tablet {
+                font-size: 0.8rem;
+            }
         }
         .plus-circle {
             color: $CelestePrimario;
@@ -311,9 +355,29 @@ nav{
         display: flex;
         flex-direction: row;
         justify-content: end;
+
+        @include mobile {
+            flex-direction: column;
+        }
+
+        @include tablet {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        
         .ilustracion-faq {
             height: 600px;
             margin-top: 50px;
+        }
+
+        @include mobile {
+            height: 100px;
+            width: 200px;
+            margin: 60px;
+        }
+
+        @include tablet {
+            width: 150px;
         }
     }
 }
@@ -324,9 +388,25 @@ nav{
     &:hover {
         color: $CelesteSecundario;
     }
+
+    @include mobile {
+        display: none;
+    }
+
+    @include tablet {
+        display: none;
+    }
 }
 .nav-nosotros-1 {
     color: $CelestePrimario;
+
+    @include mobile {
+        display: none;
+    }
+
+    @include tablet {
+        display: none;
+    }
 }
 .main-nosotros {
     display: flex;
@@ -341,11 +421,40 @@ nav{
         color: $Negro;
         margin-top: 100px;
         margin-left: 20px;
+
+        @include mobile {
+            font-size: 1rem;
+        }
+
+        @include tablet {
+            font-size: 1.5rem;
+            margin-left: 60px;
+        }
     }
     .h2-color {
         color: $CelestePrimario;
         margin-left: 20px;
         padding-top: 30px;
+
+        @include mobile {
+            font-size: 0.8rem;
+        }
+
+        @include tablet {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            margin-left: 60px;
+        }
+    }
+}
+.ilustracion-nosotros {
+    @include mobile {
+        width: 250px;
+        margin-left: 60px;
+    }
+
+    @include tablet {
+        width: 300px;
     }
 }
 .p-nosotros {
@@ -353,6 +462,16 @@ nav{
     font-size: 1.3rem;
     margin-left: 20px;
     margin-bottom: 50px;
+
+    @include mobile {
+        font-size: 1rem;
+        margin: 50px 60px;
+    }
+
+    @include tablet {
+        font-size: 1rem;
+        margin-left: 60px;
+    }
 }
 
 /* ------ SECTION CONTACTO ------ */

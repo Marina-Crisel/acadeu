@@ -166,6 +166,11 @@ nav .nav-link:hover {
     display: none;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  nav {
+    display: none;
+  }
+}
 
 .wave-content {
   background-image: url("../assets/background-wave.png");
@@ -321,12 +326,32 @@ nav .nav-link:hover {
 .nav-faq {
   color: #00bbbb;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .nav-faq {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-faq {
+    display: none;
+  }
+}
 
 .nav-faq-1 {
   color: #000000;
 }
 .nav-faq-1:hover {
   color: #B2D9D8;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .nav-faq-1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-faq-1 {
+    display: none;
+  }
 }
 
 .main-faq {
@@ -344,11 +369,31 @@ nav .nav-link:hover {
   margin-top: 100px;
   margin-left: 20px;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-faq .h1-faq {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-faq .h1-faq {
+    font-size: 1.5rem;
+  }
+}
 .main-faq .h2-faq {
   color: #00bbbb;
   font-size: 2rem;
   margin-top: 30px;
   margin-left: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-faq .h2-faq {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-faq .h2-faq {
+    font-size: 1.3rem;
+  }
 }
 .main-faq .ol-content {
   margin-top: 80px;
@@ -372,6 +417,16 @@ nav .nav-link:hover {
   font-size: 1.5rem;
   font-weight: normal;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-faq .ol-content .a-2 {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-faq .ol-content .a-2 {
+    font-size: 0.8rem;
+  }
+}
 .main-faq .ol-content .plus-circle {
   color: #00bbbb;
 }
@@ -383,9 +438,32 @@ nav .nav-link:hover {
   flex-direction: row;
   justify-content: end;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-faq .ilustracion-content {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-faq .ilustracion-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
 .main-faq .ilustracion-content .ilustracion-faq {
   height: 600px;
   margin-top: 50px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-faq .ilustracion-content {
+    height: 100px;
+    width: 200px;
+    margin: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-faq .ilustracion-content {
+    width: 150px;
+  }
 }
 
 /* ------ SECTION NOSOTROS ------ */
@@ -395,9 +473,29 @@ nav .nav-link:hover {
 .nav-nosotros:hover {
   color: #B2D9D8;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .nav-nosotros {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-nosotros {
+    display: none;
+  }
+}
 
 .nav-nosotros-1 {
   color: #00bbbb;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .nav-nosotros-1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-nosotros-1 {
+    display: none;
+  }
 }
 
 .main-nosotros {
@@ -415,10 +513,45 @@ nav .nav-link:hover {
   margin-top: 100px;
   margin-left: 20px;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-nosotros .h1-nosotros {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-nosotros .h1-nosotros {
+    font-size: 1.5rem;
+    margin-left: 60px;
+  }
+}
 .main-nosotros .h2-color {
   color: #00bbbb;
   margin-left: 20px;
   padding-top: 30px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-nosotros .h2-color {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-nosotros .h2-color {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .ilustracion-nosotros {
+    width: 250px;
+    margin-left: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .ilustracion-nosotros {
+    width: 300px;
+  }
 }
 
 .p-nosotros {
@@ -426,6 +559,18 @@ nav .nav-link:hover {
   font-size: 1.3rem;
   margin-left: 20px;
   margin-bottom: 50px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .p-nosotros {
+    font-size: 1rem;
+    margin: 50px 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .p-nosotros {
+    font-size: 1rem;
+    margin-left: 60px;
+  }
 }
 
 /* ------ SECTION CONTACTO ------ */
