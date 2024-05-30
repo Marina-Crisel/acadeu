@@ -72,6 +72,11 @@ nav{
             width: 70px;
             margin-left: 10px;
         }
+
+        @include tablet {
+            width: 100px;
+            margin-left: 10px;
+        }
     }
     ul {
         list-style: none;
@@ -126,6 +131,11 @@ nav{
         @include mobile {
             display: none;
         }
+
+        @include tablet {
+            width: 300px;
+            margin-top: 220px;
+        }
     }
     text-body {
         @include mobile {
@@ -142,6 +152,11 @@ nav{
         @include mobile {
             font-size: 1rem;
             padding-left: 10px;
+        }
+
+        @include tablet {
+            text-align: center;
+            font-size: 1.8rem;
         }
     }
     .titulo-h1 {
@@ -163,6 +178,10 @@ nav{
         @include mobile {
             font-size: 0.7rem;
         }
+
+        @include tablet {
+            font-size: 0.9rem;
+        }
     }
     .texto-2 {
         align-self:flex-end;
@@ -171,6 +190,11 @@ nav{
         @include mobile {
             padding-left: 0;
             margin-left: 25px
+        }
+
+        @include tablet {
+            font-size: 1.5rem;
+            text-align: center;
         }
     }
 }
@@ -202,14 +226,15 @@ nav{
         color: $BlancoAcento;
         font-weight: bolder;
         font-size: 1rem;
+
+        @include mobile {
+            padding: 3px;
+            font-size: 0.5rem;
+        }
+
             &:hover {
             color: $GrisBotones;
             background-color: $CelesteSecundario;
-
-            @include mobile {
-                padding: 3px;
-                font-size: 0.5rem;
-            }
         }
     }
 }
