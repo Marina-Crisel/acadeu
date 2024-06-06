@@ -45,6 +45,7 @@
 
 /* ------ SECTION HOME ------ */
 .body-content {
+    background-color: $background-color-files;
     @include mobile {
         display: block;
         flex-direction: column;
@@ -57,6 +58,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: $CelestePrimario;
+    height: 70px;
     &:hover {
         color: $CelesteSecundario;
     }
@@ -130,6 +132,7 @@ nav{
         height: 300px;
     }
     .ilustracion-home {
+        border-radius: 40%;
         margin-top: 154px;
 
         @include mobile {
@@ -254,6 +257,9 @@ nav{
 }
 
 /* ------ SECTION PREGUNTAS FRECUENTES ------ */
+.body-faq {
+    background-color: $background-color-files;
+}
 .nav-faq {
     color: $CelestePrimario;
 
@@ -278,6 +284,9 @@ nav{
     @include tablet {
         display: none;
     }
+}
+.nav-link-faq {
+    color: $CelestePrimario;
 }
 .main-faq {
     display: flex;
@@ -366,6 +375,7 @@ nav{
         }
         
         .ilustracion-faq {
+            border-radius: 40%;
             height: 600px;
             margin-top: 50px;
         }
@@ -383,6 +393,9 @@ nav{
 }
 
 /* ------ SECTION NOSOTROS ------ */
+.body-nosotros {
+    background-color: $background-color-files;
+}
 .nav-nosotros {
     color: $Negro;
     &:hover {
@@ -448,6 +461,9 @@ nav{
     }
 }
 .ilustracion-nosotros {
+    width: 500px;
+    margin-top: 40px;
+    border-radius: 40%;
     @include mobile {
         width: 250px;
         margin-left: 60px;
@@ -475,12 +491,15 @@ nav{
 }
 
 /* ------ SECTION CONTACTO ------ */
+.body-contacto {
+    background-color: $background-color-files;
+}
 .navegable{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background:none;
-    .isologo-blanco {
+    .isologo-home {
         margin: 20px;
 
         @include mobile {
@@ -491,7 +510,7 @@ nav{
             width: 200px;
         }
     }
-    .nav-contacto {
+    .link-contacto {
         color: $Negro;
         &:hover{
             color: $CelesteSecundario;
@@ -587,7 +606,8 @@ nav{
         }
     }
     .ilustracion-contacto {
-        height: 600px;
+        height: 450px;
+        border-radius: 40%;
 
         @include mobile {
             height: 250px;
@@ -602,6 +622,9 @@ nav{
 }
 
 /* ------ SECTION AYUDA ------ */
+.body-ayuda {
+    background-color: $background-color-files;
+}
 .nav-ayuda {
     color: $Negro;
     &:hover {
@@ -671,6 +694,7 @@ nav{
     }
     .ilustracion-ayuda {
         width: 500px;
+        border-radius: 40%;
 
         @include mobile {
             width: 250px;
