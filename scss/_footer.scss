@@ -16,13 +16,6 @@ footer {
     .footer-content {
         display: flex;
         flex-wrap: wrap;
-    }
-    .footer-secondary {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: nowrap;
 
         @include mobile {
             height: 0;
@@ -31,6 +24,14 @@ footer {
         @include tablet {
             height: 0;
         }
+
+    }
+    .footer-secondary {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
         
         .isologo-footer {
             border-radius: 10px;

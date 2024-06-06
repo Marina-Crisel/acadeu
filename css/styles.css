@@ -21,22 +21,22 @@ footer .footer-content {
   display: flex;
   flex-wrap: wrap;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer .footer-content {
+    height: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer .footer-content {
+    height: 0;
+  }
+}
 footer .footer-secondary {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: nowrap;
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  footer .footer-secondary {
-    height: 0;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  footer .footer-secondary {
-    height: 0;
-  }
 }
 footer .footer-secondary .isologo-footer {
   border-radius: 10px;
