@@ -11,8 +11,8 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
-  Font-size: 1rem;
-  Color: #00bbbb;
+  font-size: 1rem;
+  color: #00bbbb;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,7 +50,7 @@ footer .footer-secondary .isologo-footer {
 }
 footer .footer-secondary .text-footer {
   color: #00bbbb;
-  font-size: medium;
+  font-size: 1rem;
   margin-top: 60px;
   padding: 15px;
   text-align: center;
@@ -73,6 +73,7 @@ footer .footer-secondary .li-content {
   list-style: none;
 }
 footer .footer-secondary .li-1 {
+  font-size: 1rem;
   color: #00bbbb;
   font-weight: normal;
   text-align: center;
